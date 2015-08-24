@@ -1,0 +1,3 @@
+[submodule "PCB/shared/kicad_parts"]
+	path = PCB/shared/kicad_parts
+	url = https://github.com/karrister/kicad_parts
