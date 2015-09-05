@@ -1,4 +1,4 @@
-update=25/08/2015 01:55:15
+update=05/09/2015 15:56:57
 version=1
 last_client=eeschema
 [cvpcb]
@@ -47,7 +47,7 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-LibDir=shared/kicad_parts
+LibDir=shared/kicad_parts;shared/kicad_parts/old_lib
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -84,3 +84,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=remote_bt_shutter
