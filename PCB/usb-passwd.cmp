@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 05/09/2015 21:35:06
+
+BeginCmp
+TimeStamp = /55EAFAA9;
+Reference = C1;
+ValeurCmp = CSMALL;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EAFAB8;
+Reference = C2;
+ValeurCmp = CSMALL;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EAFAD6;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EAFAF4;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EAE8F2;
+Reference = D1;
+ValeurCmp = DBG;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EAE8DB;
+Reference = D2;
+ValeurCmp = USER;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EB0049;
+Reference = P1;
+ValeurCmp = ICSP;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EAE7E0;
+Reference = P2;
+ValeurCmp = DBG_UART;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DE3238;
+Reference = P3;
+ValeurCmp = USB;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EAE843;
+Reference = P4;
+ValeurCmp = SW1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EAE852;
+Reference = P5;
+ValeurCmp = SW2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EB1D78;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EB1D69;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EAFAE5;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EAE6AB;
+Reference = U1;
+ValeurCmp = PIC18F14K50;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55EAEA36;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = ;
+EndCmp
+
+EndListe
