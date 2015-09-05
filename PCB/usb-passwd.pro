@@ -1,4 +1,4 @@
-update=05/09/2015 15:56:57
+update=05/09/2015 16:01:17
 version=1
 last_client=eeschema
 [cvpcb]
@@ -85,3 +85,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=remote_bt_shutter
+LibName32=imx23_phone
