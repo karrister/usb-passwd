@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "5 sep 2015"
+Date "6 nov 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -67,17 +67,6 @@ F 2 "~" H 6850 3450 60  0000 C CNN
 F 3 "~" H 6850 3450 60  0000 C CNN
 	1    7350 2900
 	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_2 P2
-U 1 1 55EAE7E0
-P 1250 5100
-F 0 "P2" V 1200 5100 40  0000 C CNN
-F 1 "DBG_UART" V 1300 5100 40  0000 C CNN
-F 2 "~" H 1250 5100 60  0000 C CNN
-F 3 "~" H 1250 5100 60  0000 C CNN
-	1    1250 5100
-	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_2 P4
@@ -196,7 +185,9 @@ Wire Wire Line
 Wire Wire Line
 	1950 3100 1950 3300
 Wire Wire Line
-	1400 3300 2450 3300
+	1400 3300 1950 3300
+Wire Wire Line
+	1950 3300 2450 3300
 Wire Wire Line
 	2450 3300 2450 3450
 Wire Wire Line
@@ -211,10 +202,10 @@ OSC1
 Text Label 1400 3950 0    60   ~ 0
 OSC2
 Wire Wire Line
-	1600 5000 2100 5000
+	1600 5100 2100 5100
 Wire Wire Line
 	1600 5200 2100 5200
-Text Label 2100 5000 0    60   ~ 0
+Text Label 2100 5100 0    60   ~ 0
 UART_RX
 Text Label 2100 5200 0    60   ~ 0
 UART_TX
@@ -253,7 +244,11 @@ Wire Wire Line
 Wire Wire Line
 	8400 2500 8400 1800
 Wire Wire Line
-	6300 1800 8800 1800
+	6300 1800 8400 1800
+Wire Wire Line
+	8400 1800 8600 1800
+Wire Wire Line
+	8600 1800 8800 1800
 Wire Wire Line
 	8600 1800 8600 1550
 Wire Wire Line
@@ -269,7 +264,9 @@ Connection ~ 8400 1800
 Wire Wire Line
 	6050 2500 6300 2500
 Wire Wire Line
-	6050 1700 6050 2500
+	6050 1700 6050 1850
+Wire Wire Line
+	6050 1850 6050 2500
 Text Label 6050 1700 0    60   ~ 0
 Vcc
 Wire Wire Line
@@ -286,7 +283,9 @@ Connection ~ 6050 1850
 Wire Wire Line
 	5800 2350 5800 2800
 Wire Wire Line
-	5500 2800 6300 2800
+	5500 2800 5800 2800
+Wire Wire Line
+	5800 2800 6300 2800
 Connection ~ 5800 2800
 $Comp
 L CONN_5 P1
@@ -312,9 +311,13 @@ PGD
 Text Label 2100 5750 0    60   ~ 0
 PGC
 Wire Wire Line
-	8400 2600 9600 2600
+	8400 2600 9250 2600
 Wire Wire Line
-	8400 2700 9600 2700
+	9250 2600 9600 2600
+Wire Wire Line
+	8400 2700 9400 2700
+Wire Wire Line
+	9400 2700 9600 2700
 Wire Wire Line
 	9250 2600 9250 2400
 Connection ~ 9250 2600
@@ -390,7 +393,9 @@ F 3 "~" H 1750 1200 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2600 1200 2600 1600
+	2600 1200 2600 1400
+Wire Wire Line
+	2600 1400 2600 1600
 Wire Wire Line
 	2600 1400 2700 1400
 Connection ~ 2600 1400
@@ -474,4 +479,19 @@ NoConn ~ 6300 3100
 NoConn ~ 6300 3200
 NoConn ~ 6300 3300
 NoConn ~ 8400 3100
+$Comp
+L CONN_3 K1
+U 1 1 563D0640
+P 1250 5100
+F 0 "K1" V 1200 5100 50  0000 C CNN
+F 1 "UART" V 1300 5100 40  0000 C CNN
+F 2 "~" H 1250 5100 60  0000 C CNN
+F 3 "~" H 1250 5100 60  0000 C CNN
+	1    1250 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 5000 2100 5000
+Text Label 2100 5000 0    60   ~ 0
+GND
 $EndSCHEMATC

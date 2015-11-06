@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 05/09/2015 21:35:06
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 06/11/2015 22:01:12
 
 BeginCmp
 TimeStamp = /55EAFAA9;
@@ -32,35 +32,35 @@ BeginCmp
 TimeStamp = /55EAE8F2;
 Reference = D1;
 ValeurCmp = DBG;
-IdModule  = ;
+IdModule  = LED-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /55EAE8DB;
 Reference = D2;
 ValeurCmp = USER;
-IdModule  = ;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /563D0640;
+Reference = K1;
+ValeurCmp = UART;
+IdModule  = UART-POGO;
 EndCmp
 
 BeginCmp
 TimeStamp = /55EB0049;
 Reference = P1;
 ValeurCmp = ICSP;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /55EAE7E0;
-Reference = P2;
-ValeurCmp = DBG_UART;
-IdModule  = ;
+IdModule  = ICSP-POGO;
 EndCmp
 
 BeginCmp
 TimeStamp = /55DE3238;
 Reference = P3;
 ValeurCmp = USB;
-IdModule  = ;
+IdModule  = USB-A;
 EndCmp
 
 BeginCmp
@@ -102,7 +102,7 @@ BeginCmp
 TimeStamp = /55EAE6AB;
 Reference = U1;
 ValeurCmp = PIC18F14K50;
-IdModule  = ;
+IdModule  = SSOP-20-MCHIP;
 EndCmp
 
 BeginCmp
