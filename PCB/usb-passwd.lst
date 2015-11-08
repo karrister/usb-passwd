@@ -1,0 +1,40 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 07/11/2015 22:29:48
+#Cmp ( order = Reference )
+| C1         CSMALL      
+| C2         CSMALL      
+| C3         C           
+| C4         C           
+| D1         DBG         
+| D2         USER        
+| K1         UART        
+| P1         ICSP        
+| P2         USB         
+| P3         SW1         
+| P4         SW2         
+| R1         R           
+| R2         R           
+| R3         R           
+| U1         PIC18F14K50 
+| X1         CRYSTAL-SMD 
+#End Cmp
+
+#Cmp ( order = Value )
+| CSMALL       C1        
+| CSMALL       C2        
+| C            C3        
+| C            C4        
+| DBG          D1        
+| USER         D2        
+| UART         K1        
+| ICSP         P1        
+| USB          P2        
+| SW1          P3        
+| SW2          P4        
+| R            R1        
+| R            R2        
+| R            R3        
+| PIC18F14K50  U1        
+| CRYSTAL-SMD  X1        
+#End Cmp
+
+#End List

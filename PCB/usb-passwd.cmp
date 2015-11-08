@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 06/11/2015 22:01:12
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 07/11/2015 22:29:39
 
 BeginCmp
 TimeStamp = /55EAFAA9;
@@ -18,14 +18,14 @@ BeginCmp
 TimeStamp = /55EAFAD6;
 Reference = C3;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /55EAFAF4;
 Reference = C4;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = c_0805;
 EndCmp
 
 BeginCmp
@@ -58,23 +58,23 @@ EndCmp
 
 BeginCmp
 TimeStamp = /55DE3238;
-Reference = P3;
+Reference = P2;
 ValeurCmp = USB;
 IdModule  = USB-A;
 EndCmp
 
 BeginCmp
-TimeStamp = /55EAE843;
-Reference = P4;
+TimeStamp = /563E5C65;
+Reference = P3;
 ValeurCmp = SW1;
-IdModule  = ;
+IdModule  = SW-SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /55EAE852;
-Reference = P5;
+TimeStamp = /563E5C74;
+Reference = P4;
 ValeurCmp = SW2;
-IdModule  = ;
+IdModule  = SW-SMD;
 EndCmp
 
 BeginCmp
@@ -106,10 +106,10 @@ IdModule  = SSOP-20-MCHIP;
 EndCmp
 
 BeginCmp
-TimeStamp = /55EAEA36;
+TimeStamp = /563E5E83;
 Reference = X1;
-ValeurCmp = CRYSTAL;
-IdModule  = ;
+ValeurCmp = CRYSTAL-SMD;
+IdModule  = XTAL-SMD-UM;
 EndCmp
 
 EndListe
